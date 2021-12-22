@@ -1,0 +1,2 @@
+# testminit
+练习
