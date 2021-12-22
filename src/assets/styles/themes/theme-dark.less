@@ -1,0 +1,55 @@
+@import '~ant-design-vue/lib/style/themes/default.less';
+@import 'src/assets/styles/themes/theme-public.less';
+
+// 全局主色调
+@primary-color: #176991;
+// body背景
+@body-background: #121c22;
+// 全局字体颜色
+@black: #fff;
+// 表格、卡片等头部颜色
+@heading-color: fade(@black, 85%);
+// 组件默认背景
+@component-background: @body-background;
+//表格等组件头部和选中背景
+@background-color-light: #043d59;
+
+// layout
+@layout-header-background: @body-background;
+@layout-body-background: #090e08;
+@layout-trigger-background: @body-background;
+
+// card
+@card-background: @body-background;
+
+// item
+// menu、select选中项背景
+@item-active-bg: @primary-color;
+
+// menu
+@menu-highlight-color: @black;
+
+// border
+// 按钮、输入框等边框
+@border-color-base: #1a4a61;
+// 组件内部分割线
+@border-color-split: @border-color-base;
+@border-color-inverse: @border-color-base;
+
+// table
+@table-row-hover-bg: fade(@black, 50%);
+@table-selected-row-color: fade(@black, 65%);
+@table-selected-row-bg: fade(@black, 30%);
+
+// Disabled
+@disabled-color: fade(rgb(251, 251, 251), 25%);
+@disabled-bg: @border-color-base;
+@disabled-color-dark: fade(@black, 35%);
+
+// 主题自定义样式
+.theme-dark {
+  // 防止primary按钮hover时color异常变化
+  .ant-btn-primary {
+    color: @black !important;
+  }
+}

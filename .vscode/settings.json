@@ -1,0 +1,12 @@
+{
+  "editor.tabSize": 2,
+  "files.autoSave": "onFocusChange",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrapColumn": 120,
+  "editor.formatOnSave": true,
+  "cSpell.words": ["BACTH", "Detial", "GOALINFO", "LSIT", "PLAMNFILE"],
+  "terminal.integrated.shellArgs.windows": ["-nologo"]
+}

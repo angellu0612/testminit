@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "baseUrl": "./",
+    "lib": ["ESNext", "DOM"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@c/*": ["src/components/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
